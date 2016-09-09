@@ -1,0 +1,216 @@
+
+@font-face {
+	font-family: "tikan";
+	src:url(../font/UKIJTiken.ttf);
+}
+@font-face {
+	font-family: "ruqi";
+	src:url(../font/UKIJRu.ttf);
+}
+#tag {
+	width: 1024px;
+	height: 960px;
+	background: rgb(7, 4, 38);
+	top:25px;
+	position: relative;
+}
+
+#tag #back {
+	width: 966px;
+	height: 539px;
+	margin: auto;
+	background: url("../img/bashbatnew.jpg");
+	position: relative;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	top: 185px;
+}
+
+#tag #back #play {
+width: 271px;
+height: 76px;
+position: absolute;
+top: 378px;
+right: 319px;
+background: url("../img/btn.png");
+color: rgb(251, 248, 248);
+font-size: 42px;
+text-align: center;
+line-height: 80px;
+background-size: contain;
+font-family:ruqi;
+cursor:pointer;
+-webkit-transition:color 0.9s;
+	-webkit-animation-name:herkat;
+	-webkit-animation-duration:1.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-out;
+}
+@-webkit-keyframes herkat{
+	0%{-webkit-transform: scale(1, 1);}
+	50%{-webkit-transform: scale(0.7, 0.7);}
+	100%{-webkit-transform: scale(1, 1);}
+}
+#tag #back #play:hover{
+	color:red;
+	-webkit-transition:color 0.9s;
+}
+#tag #back #stor {
+width: 271px;
+height: 76px;
+position: absolute;
+top: 378px;
+right: 45px;
+background: url("../img/btn.png");
+color: rgb(251, 248, 248);
+font-size: 42px;
+text-align: center;
+line-height: 80px;
+background-size: contain;
+font-family:ruqi;
+cursor:pointer;
+}
+#tag #back #sa{
+width: 100px;
+height: 60px;
+position: absolute;
+top: 89px;
+right: 198px;
+font-size: 65px;
+font-family:tikan;
+color: rgb(252, 252, 252);
+-webkit-transform: rotate(-30deg);
+	-webkit-animation-name:herkat22;
+	-webkit-animation-duration:5s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-timing-function:ease-out;
+}
+@-webkit-keyframes herkat22{
+	0%{color: rgb(251, 248, 248); }
+
+	97%{color: rgb(251, 248, 248);}
+
+	100%{color:red;}
+}
+#tag #back #ma{
+width: 100px;
+height: 60px;
+position: absolute;
+top: 185px;
+right: 235px;
+font-size: 86px;
+font-family: tikan;
+color: rgb(252, 252, 252);
+-webkit-transform: rotate(-30deg);
+	
+	-webkit-animation-name:herkat222;
+	-webkit-animation-duration:7.5s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-timing-function:ease-out;
+}
+@-webkit-keyframes herkat222{
+	0%{color: rgb(251, 248, 248); }
+
+	97%{color: rgb(251, 248, 248);}
+
+	100%{color:red;}
+}
+#tag #back #sh{
+position: absolute;
+top: 25px;
+right: 53px;
+background: url("../img/karga.png");
+width: 60px;
+height: 60px;
+	-webkit-animation-name:herkat2;
+	-webkit-animation-duration:10s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-timing-function:ease-out;
+}
+@-webkit-keyframes herkat2{
+	0%{ top:25px;right:53px;}
+ 	25%{top:25px;right:227px;} 
+ 	50%{top:114px;right:227px;} 
+	75%{ top:126px;right:88px;}
+	100%{ top:25px;right:53px;}
+}
+#tag #back #switch{
+position: absolute;
+top: 494px;
+left: 36px;
+background: url("../img/longka.png");
+width: 40px;
+height: 40px;
+background-size: cover;
+color: rgb(0, 255, 239);
+text-align: center;
+line-height: 40px;
+cursor:pointer;
+}
+#tag #back #man{
+position: absolute;
+width: 323px;
+height: 515px;
+top: 25px;
+left: 30px;
+background: url("../img/man.png");
+}
+#tag #back #gun{
+position: absolute;
+width: 342px;
+height: 81px;
+top: 349px;
+left: 183px;
+background: url("../img/gun.png");
+background-size: cover;
+-webkit-transform-origin: 0% 50%;
+-webkit-transform: rotate(-22deg);
+-webkit-animation-name: herkat_t;
+-webkit-animation-duration: 10s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-out;
+}
+@-webkit-keyframes herkat_t{
+	0%{-webkit-transform: rotate(-22deg);}
+ 	50%{-webkit-transform: rotate(-16deg);} 
+	100%{ -webkit-transform: rotate(-22deg);}
+}
+#tag #back #u{
+position: absolute;
+top: 206px;
+left: 287px;
+width: 40px;
+height: 10px;
+background: rgb(255, 0, 0);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+-webkit-animation-name: herkat0;
+-webkit-animation-duration: 10s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-out;
+}
+@-webkit-keyframes herkat0{
+ 	0%{top: 206px;}
+ 	50%{top: 212px;} 
+	100%{ top: 206px;}
+}
+#tag #back #a{
+position: absolute;
+top: 226px;
+left: 278px;
+width: 45px;
+height: 7px;
+background: rgb(255, 0, 0);
+-webkit-transform: rotate(32deg);
+border-bottom-right-radius: 20px;
+-webkit-transform-origin: 0% 0%;
+-webkit-animation-name: herkat01;
+-webkit-animation-duration: 10s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-out;
+}
+@-webkit-keyframes herkat01{
+	0%{-webkit-transform: rotate(32deg);}
+ 	50%{-webkit-transform: rotate(24deg);} 
+	100%{ -webkit-transform: rotate(32deg);}
+}

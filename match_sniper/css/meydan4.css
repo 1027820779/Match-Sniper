@@ -1,0 +1,424 @@
+@CHARSET "UTF-8";
+@font-face {
+	font-family: "saat";
+	src:url(../font/UKIJSaet.ttf);
+}
+@font-face {
+	font-family: "tuz";
+	src:url(../font/UKIJTuz.ttf);
+}
+#big {
+	width: 1024px;
+	height: 960px;
+	background: rgb(7, 4, 38);
+	position: relative;
+	top:25px;
+}
+
+#kvrvnmeyz {
+	width: 960px;
+	height: 539px;
+	position: relative;
+	top: 185px;
+	margin: auto;
+	background: white;
+	background-repeat: no-repeat;
+	/* overflow: hidden; */
+}
+
+#tag {
+	width: 960px;
+	height: 490px;
+	position: relative;
+	top: 0px;
+	margin: auto;
+	background: url("../img/Untitled-1.jpg");
+	overflow: hidden;
+}
+
+#back {
+	width: 43px;
+	height: 43px;
+	position: absolute;
+	background: rgba(251, 253, 253, 0);
+	right: 85px;
+	top: 4px;
+}
+
+#asti {
+	width: 960px;
+	height: 50px;
+	position: relative;
+	top: 0px;
+	margin: auto;
+	background: url("../img/Untitled-2.jpg");
+	overflow: hidden;
+}
+
+#stop {
+	width: 45px;
+	height: 43px;
+	position: absolute;
+	background: rgba(255, 255, 255, 0);
+	right: 11px;
+	top: 4px;
+	cursor: pointer;
+}
+
+#input {
+	width: 74px;
+	height: 24px;
+	position: absolute;
+	background: rgba(255, 255, 255, 0);
+	right: 153px;
+	top: 10px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	border: 0px;
+	outline: none;
+	font-size: 26px;
+	font-family:saat;
+}
+
+#input1 {
+	width: 20px;
+	height: 27px;
+	position: absolute;
+	background: rgba(252, 248, 248, 0);
+	left: 117px;
+	top: 8px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	border: 0px;
+	outline: none;
+	font-size: 32px;
+	font-family:saat;
+}
+/*tohtat  */
+#pause {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 60px;
+	left: 175px;
+	background: url("../img/pause.png");
+	display: none;
+	z-index: 1;
+}
+#font0 {
+	position: absolute;
+	left: 219px;
+	top: 60px;
+	color: rgb(0, 0, 0);
+	font-family:tuz;
+	font-size: 37px;
+}
+#menu {
+	width: 60px;
+	height: 53px;
+	position: absolute;
+	top: 306px;
+	left: 60px;
+	background: rgba(255, 255, 255, 0);
+}
+
+#stor {
+	width: 82px;
+	height: 70px;
+	position: absolute;
+	top: 299px;
+	left: 136px;
+	background: rgba(252, 250, 250, 0);
+}
+
+#reload {
+	width: 82px;
+	height: 70px;
+	position: absolute;
+	top: 302px;
+	left: 397px;
+	background: rgba(252, 250, 250, 0);
+}
+
+#restat {
+	width: 60px;
+	height: 53px;
+	position: absolute;
+	top: 307px;
+	left: 496px;
+	background: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+/*utti  */
+#win {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 60px;
+	left: 175px;
+	background: url("../img/win.png");
+	display: none;
+	z-index: 1;
+}
+
+#font {
+	position: absolute;
+	left: 219px;
+	top: 60px;
+	color: rgb(0, 0, 0);
+	font-family:tuz;
+	font-size: 37px;
+}
+
+#oq_n {
+	position: absolute;
+	left: 219px;
+	top: 120px;
+	color: rgb(0, 0, 0);
+	font-family:tuz;
+	font-size: 37px;
+	width: 178px;
+	height: 50px;
+	text-align: right;
+}
+
+#axkan_oq {
+	width: 26px;
+	height: 35px;
+	font-size: 34px;
+	outline: none;
+	border: 0px;
+	background: rgba(255, 255, 255, 0);
+}
+
+#demo_n {
+	position: absolute;
+	left: 219px;
+	top: 190px;
+	color: rgb(0, 0, 0);
+	font-family:tuz;
+	font-size: 37px;
+}
+
+#menu_w {
+	width: 60px;
+	height: 53px;
+	position: absolute;
+	top: 306px;
+	left: 60px;
+	background: rgba(255, 255, 255, 0);
+}
+
+#reload_w {
+	width: 82px;
+	height: 70px;
+	position: absolute;
+	top: 316px;
+	left: 271px;
+	background: rgba(252, 250, 250, 0);
+}
+
+#new {
+	width: 60px;
+	height: 53px;
+	position: absolute;
+	top: 307px;
+	left: 496px;
+	background: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+/*failed  */
+#failed {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 60px;
+	left: 175px;
+	background: url("../img/failed.png");
+	display: none;
+	z-index: 1;
+}
+
+#font1 {
+	position: absolute;
+	left: 167px;
+	top: 102px;
+	color: rgb(0, 0, 0);
+	font-family:tuz;
+	font-size: 47px;
+}
+
+#font2 {
+	position: absolute;
+	left: 122px;
+	top: 171px;
+	color: rgb(0, 0, 0);
+	font-family:tuz;
+	font-size: 35px;
+}
+
+#menu_f {
+	width: 60px;
+	height: 53px;
+	position: absolute;
+	top: 306px;
+	left: 60px;
+	background: rgba(255, 255, 255, 0);
+}
+
+#reload_f {
+	width: 60px;
+	height: 53px;
+	position: absolute;
+	top: 307px;
+	left: 496px;
+	background: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+/*failed1  */
+#failed2 {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 60px;
+	left: 175px;
+	background: url("../img/failed.png");
+	display: none;
+	z-index: 1;
+}
+
+#font11 {
+	position: absolute;
+	left: 167px;
+	top: 102px;
+	color: rgb(0, 0, 0);
+	font-family:tuz;
+	font-size: 47px;
+}
+
+#font22 {
+	position: absolute;
+	left: 122px;
+	top: 171px;
+	color: rgb(0, 0, 0);
+	font-family:tuz;
+	font-size: 35px;
+}
+
+#menu_ff {
+	width: 60px;
+	height: 53px;
+	position: absolute;
+	top: 306px;
+	left: 60px;
+	background: rgba(255, 255, 255, 0);
+}
+
+#reload_ff {
+	width: 60px;
+	height: 53px;
+	position: absolute;
+	top: 307px;
+	left: 496px;
+	background: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+/*===================  */
+#mergen {
+	width: 24px;
+	height: 66px;
+	top: 191px;
+	left: 80px;
+	position: absolute;
+	background: url(../img/manright.png);
+	background-size: cover;
+	
+}
+
+#qoral {
+	width: 53px;
+	height: 12px;
+	top: 221px;
+	left: 71px;
+	position: absolute;
+	background: url(../img/gun_right.png);
+	background-size: cover;
+	-webkit-transform-origin: 35% 50%;
+	
+}
+
+#qoral:after {
+	width: 860px;
+	height: 1px;
+	background: rgb(255, 0, 0);
+	content: "";
+	position: absolute;
+	left: 54px;
+	top: 5px;
+}
+/*===============  */
+/*--------------------------------------------------------------------  */
+#shape {
+	width: 80px;
+	height: 45px;
+	background: #141717;
+	position: absolute;
+	left: 59px;
+	top: 257px;
+}
+
+#rightthif {
+	width: 28px;
+	height: 58px;
+	background: url("../img/thif.png");
+	background-repead: no-repead;
+	position: absolute;
+	top: 200px;
+	left: 695px;
+
+}
+
+#groundthif {
+	width: 28px;
+	height: 58px;
+	background: url("../img/thif.png");
+	background-repead: no-repead;
+	position: absolute;
+	top: 433px;
+	left: 458px;
+}
+
+#shape1 {
+	width: 45px;
+	height: 135px;
+	background: rgb(6, 6, 6);
+	top: 198px;
+	left: 357px;
+	position: absolute;
+}
+
+#shape3 {
+	width: 89px;
+	height: 45px;
+	background: rgb(6, 6, 6);
+	top: 257px;
+	left: 660px;
+	position: absolute;
+}
+
+#shape4 {
+	width: 45px;
+	height: 168px;
+	background: rgb(6, 6, 6);
+	top: 134px;
+	left: 620px;
+	position: absolute;
+}
+/*----------------------------------------------------------  */
+.bolts {
+	width: 20px;
+	height: 20px;
+	/* 	background: red; */
+	background: url(../img/oh.png);
+	position: absolute;
+}

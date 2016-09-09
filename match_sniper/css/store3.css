@@ -1,0 +1,165 @@
+@font-face {
+	font-family: "saat";
+	src:url(../font/UKIJSaet.ttf);
+}
+@font-face {
+	font-family: "tuz";
+	src:url(../font/UKIJTuz.ttf);
+}
+#tag {
+	width: 1024px;
+	height: 960px;
+	background: rgb(7, 4, 38);
+top:25px;
+	position: relative;
+}
+
+#tag #back {
+	width: 966px;
+	height: 539px;
+	margin: auto;
+	background: url("../img/stor.jpg");
+	position: relative;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	top: 185px;
+}
+
+#tag #back #re {
+	width: 53px;
+	height: 31px;
+	position: absolute;
+	left: 64px;
+	top: 45px;
+	background: rgba(255, 255, 255, 0);
+}
+
+#tag #back #show {
+	position: absolute;
+	right: 53px;
+	top: 24px;
+}
+
+#tag #back #show input {
+	width: 82px;
+	height: 47px;
+	font-size: 39px;
+	text-align: center;
+	font-family:saat;
+	line-height: 13px;
+	background: rgba(255, 255, 255, 0);
+	color: rgb(255, 255, 255);
+	border: 0px;
+	outline: none;
+}
+
+#tag #back #font {
+	font-size: 64px;
+	font-family:tuz;
+	color: rgb(255, 254, 254);
+	position: absolute;
+	left: 400px;
+	top: 20px;
+	-webkit-animation-name:herkat;
+	-webkit-animation-duration:5s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-out;
+}
+@-webkit-keyframes herkat{
+	0%{color:white;}
+	50%{color: rgb(66, 219, 179);}
+	100%{color:white;}
+}
+#tag #back #menu1{
+width: 351px;
+height: 88px;
+position: absolute;
+left: 293px;
+top: 146px;
+background: url("../img/stormenu.png");
+text-indent: 192px;
+color: rgb(255, 255, 255);
+line-height: 83px;
+font-size: 32px;
+font-family:saat;
+-webkit-transition:color 0.9s;
+cursor:pointer;
+}
+#tag #back #menu1:hover{
+	color: rgb(196, 193, 193);
+	-webkit-transition:color 0.9s;
+}
+#tag #back #menu1 img{
+position: absolute;
+left: 38px;
+top: 12px;
+width: 60px;
+height: 60px;
+-webkit-transition:-webkit-transform 0.9s;
+}
+#tag #back #menu1 img:hover{
+	-webkit-transform:rotateY(180deg);
+	-webkit-transition:-webkit-transform 0.9s;
+}
+#tag #back #menu2{
+width: 351px;
+height: 88px;
+position: absolute;
+left: 293px;
+top: 265px;
+background: url("../img/stormenu.png");
+text-indent: 192px;
+color: rgb(255, 255, 255);
+line-height: 83px;
+font-size: 32px;
+font-family:saat;
+cursor:pointer;
+-webkit-transition:color 0.9s;
+}
+#tag #back #menu2 img{
+position: absolute;
+left: 38px;
+top: 12px;
+width: 60px;
+height: 60px;
+-webkit-transition:-webkit-transform 0.9s;
+}
+#tag #back #menu2 img:hover{
+	-webkit-transform:rotateY(180deg);
+	-webkit-transition:-webkit-transform 0.9s;
+}
+#tag #back #menu2:hover{
+	color: rgb(196, 193, 193);
+	-webkit-transition:color 0.9s;
+}
+#tag #back #menu3{
+width: 351px;
+height: 88px;
+position: absolute;
+left: 293px;
+top: 384px;
+background: url("../img/stormenu.png");
+text-indent: 192px;
+color: rgb(255, 255, 255);
+line-height: 83px;
+font-size: 32px;
+font-family:saat;
+cursor:pointer;
+-webkit-transition:color 0.9s;
+}
+#tag #back #menu3:hover{
+	color: rgb(196, 193, 193);
+	-webkit-transition:color 0.9s;
+}
+#tag #back #menu3 img{
+position: absolute;
+left: 38px;
+top: 12px;
+width: 60px;
+height: 60px;
+-webkit-transition:-webkit-transform 0.9s;
+}
+#tag #back #menu3 img:hover{
+	-webkit-transform:rotateY(180deg);
+	-webkit-transition:-webkit-transform 0.9s;
+}

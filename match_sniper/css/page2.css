@@ -1,0 +1,103 @@
+@font-face {
+	font-family: "tuz";
+	src:url(../font/UKIJTuz.ttf);
+}
+#tag {
+	width: 1024px;
+	height: 960px;
+	background: rgb(7, 4, 38);
+	top:25px;
+	position: relative;
+}
+
+#tag #back {
+	width: 966px;
+	height: 539px;
+	margin: auto;
+	background: url("../img/score1.jpg");
+	position: relative;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	top: 185px;
+}
+
+#tag #back #re {
+	width: 44px;
+	height: 39px;
+	background: rgba(255, 255, 255, 0);
+	position: absolute;
+	top: 33px;
+	left: 59px;
+}
+
+#tag #back #store {
+width: 188px;
+height: 60px;
+background: rgba(255, 255, 255, 0);
+position: absolute;
+top: 8px;
+right: 67px;
+color: rgb(255, 255, 255);
+text-align: center;
+line-height: 60px;
+font-size: 39px;
+font-family: tuz;
+}
+
+#tag #back #left {
+position: absolute;
+top: 219px;
+left: 190px;
+color: rgb(255, 255, 255);
+font-family: tuz;
+font-size: 22px;
+
+}
+
+#tag #back #center {
+position: absolute;
+top: 122px;
+left: 397px;
+color: rgb(255, 255, 255);
+font-family: tuz;
+font-size: 61px;
+}
+
+#tag #back #right {
+position: absolute;
+top: 221px;
+right: 192px;
+color: rgb(255, 255, 255);
+font-family: tuz;
+font-size: 22px;
+}
+
+#tag #back #chose {
+	width: 358px;
+	height: 214px;
+	position: absolute;
+	top: 193px;
+	left: 312px;
+	background: rgba(254, 252, 252,0);
+	cursor: pointer;
+	display: block;
+}
+
+#tag #back #t_l {
+	width: 43px;
+	height: 61px;
+	position: absolute;
+	top: 285px;
+	left: 29px;
+	background: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}
+#tag #back #t_r {
+	width: 43px;
+	height: 61px;
+	position: absolute;
+	top: 285px;
+	right: 38px;
+	background: rgba(255, 255, 255, 0);
+	cursor: pointer;
+}

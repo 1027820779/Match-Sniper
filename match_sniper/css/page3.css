@@ -1,0 +1,189 @@
+@font-face {
+	font-family: "tuz";
+	src:url(../font/UKIJTuz.ttf);
+}
+#tag {
+	width: 1024px;
+	height: 960px;
+	background: rgb(7, 4, 38);
+top:25px;
+	position: relative;
+}
+
+#tag #back {
+	width: 966px;
+	height: 539px;
+	margin: auto;
+	background: url("../img/page3.jpg");
+	position: relative;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	top: 185px;
+}
+
+#tag #back #re {
+	width: 44px;
+	height: 44px;
+	background: url("../img/longka.png");
+	position: absolute;
+	top: 33px;
+	left: 59px;
+	background-size: cover;
+}
+
+#tag #back #re img {
+	position: absolute;
+	top: -14px;
+	left: -14px;
+}
+
+#tag #back #store {
+	width: 188px;
+	height: 52px;
+	background: url("../img/btn.png");
+	position: absolute;
+	top: 15px;
+	right: 73px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 37px;
+	font-size: 39px;
+	font-family:tuz;
+	background-size: cover;
+}
+
+#tag #back #ku1 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 200px;
+	left: 119px;
+	background: url("../img/yultuz0.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+
+#tag #back #ku2 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 200px;
+	left: 275px;
+	background: url("../img/yultuz0.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+
+#tag #back #ku3 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 200px;
+	left: 431px;
+	background: url("../img/yultuz0.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+
+#tag #back #ku4 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 200px;
+	left: 586px;
+	background: url("../img/yultuz0.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+
+#tag #back #ku5 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 200px;
+	left: 750px;
+	background: url("../img/yultuz0.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+
+#tag #back #ku6 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 334px;
+	left: 119px;
+	background: url("../img/kurnux.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+#tag #back #ku7 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 334px;
+	left: 275px;
+	background: url("../img/kurnux.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+#tag #back #ku8 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 334px;
+	left: 431px;
+	background: url("../img/kurnux.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+#tag #back #ku9 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 334px;
+	left: 586px;
+	background: url("../img/kurnux.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
+#tag #back #ku10 {
+	width: 95px;
+	height: 101px;
+	position: absolute;
+	top: 334px;
+	left: 750px;
+	background: url("../img/kurnux.png");
+	text-align: center;
+	line-height: 82px;
+	font-size: 40px;
+	color: rgb(25, 15, 13);
+	font-family: sans-serif;
+}
